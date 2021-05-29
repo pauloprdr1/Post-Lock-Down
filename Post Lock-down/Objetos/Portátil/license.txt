@@ -1,0 +1,11 @@
+Model Information:
+* title:	Laptop and mouse
+* source:	https://sketchfab.com/3d-models/laptop-and-mouse-c6e193ac304e477aaed7946289dbe150
+* author:	Nick Broad (https://sketchfab.com/nickbroad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Laptop and mouse" (https://sketchfab.com/3d-models/laptop-and-mouse-c6e193ac304e477aaed7946289dbe150) by Nick Broad (https://sketchfab.com/nickbroad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

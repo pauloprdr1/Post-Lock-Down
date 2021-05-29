@@ -1,0 +1,11 @@
+Model Information:
+* title:	Billboard Post Apo
+* source:	https://sketchfab.com/3d-models/billboard-post-apo-e4fa3bc7179045f3a966453c3f36a968
+* author:	Thunder (https://sketchfab.com/thunderpwn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Billboard Post Apo" (https://sketchfab.com/3d-models/billboard-post-apo-e4fa3bc7179045f3a966453c3f36a968) by Thunder (https://sketchfab.com/thunderpwn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ruined City
+* source:	https://sketchfab.com/3d-models/ruined-city-c82b395bb6b44427a1f379f54e106845
+* author:	eucalyp555 (https://sketchfab.com/eucalyp555)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ruined City" (https://sketchfab.com/3d-models/ruined-city-c82b395bb6b44427a1f379f54e106845) by eucalyp555 (https://sketchfab.com/eucalyp555) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
