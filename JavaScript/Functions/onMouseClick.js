@@ -44,7 +44,7 @@ function onMouseClick( event ) { //RAycaster detetor de clicks
         if(intersectLivro[0].distance<=10)
         {
             alert("You open up the book on the last page and read the following entry:\n"
-            + "\t«February 20, 2021: I can't take this anymore, how many days have i've been cooped up in here? How does the outside look like? I heard in thye TV you'll be able to get out in 2 days... \n\nI need to get out of here!»"
+            + "\t«February 20, 2021: I can't take this anymore, how many days have i've been cooped up in here? How does the outside look like? I heard in the TV you'll be able to get out in 2 days... \n\nI need to get out of here!»"
             + "\n'I think that was 2 days ago, but i dont remember writting this.'");
             if(ChestKeyObtained==0)
             {

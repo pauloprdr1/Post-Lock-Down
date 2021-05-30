@@ -22,7 +22,7 @@ renderer.setSize(window.innerWidth-15, window.innerHeight-50);
 document.body.appendChild(renderer.domElement);
 
 //Controls button
-function InfoButton(){window.alert("History and controls:\n" + "You woke up in this room.\n You don't remember anything.\n Escape by any means Necessary.\n" + "\tControls:\n\tWASD - Walk;\n\tQ/E - Rotate Camera;\n\tShift/Ctrl - Tilt Head;\n\tSpace - Jump;\n\tC - Crouch;\n\tM-Open Map;\n\tTab - Open Inventory;\n\tMouse Over - Inspect;\n\tLeftClick - Pick Up;\n\nGood Luck.");}
+function InfoButton(){window.alert("History and controls:\n" + "You woke up in this room.\n You don't remember anything.\n Escape by any means Necessary.\n" + "\tControls:\n\tWASD - Walk;\n\tQ/E - Rotate Camera;\n\tShift/Ctrl - Tilt Head;\n\tSpace - Jump;\n\tC - Crouch;\n\tM-Open Map;\n\tLeftClick - Inspect/Pick Up;\n\nGood Luck.");}
 
 //Ortographic camera movement/camera movement/head tilt back and forth/Jumping feature/crouch Feature
 var CoordMovement;
@@ -57,27 +57,27 @@ const Noite = new THREE.Color(0x555564);
 //luz salas 1 e 2
 var LightBoxluz = new THREE.PointLight('#e9f7f4', 0.5);//Luz Sala1
 var LightBoxluz2 = new THREE.PointLight('#f2f2f9', 0.5);//Luz Sala2
-LightBoxluz.decay=2;
-LightBoxluz2.decay=2;
-LightBoxluz.shadow.mapSize.width = 40;
-LightBoxluz.shadow.mapSize.height = 40;
+LightBoxluz.decay=1.9;
+LightBoxluz2.decay=1.9;
+LightBoxluz.shadow.mapSize.width = 30;
+LightBoxluz.shadow.mapSize.height = 30;
 LightBoxluz2.shadow.mapSize.width = 40;
 LightBoxluz2.shadow.mapSize.height = 40;
-LightBoxluz.distance=30; 
+LightBoxluz.distance=35; 
 LightBoxluz.power=10*Math.PI;
 LightBoxluz.castShadow=true;
-LightBoxluz2.distance=40; 
+LightBoxluz2.distance=50; 
 LightBoxluz2.power=10*Math.PI;
 LightBoxluz2.castShadow=true;
 
 //Luz Candeeiro
-var Lamplight = new THREE.SpotLight('#dfe3c6', 0.5);
+var Lamplight = new THREE.SpotLight('#dfe3c6', 0.7);
 Lamplight.castShadow = true;
 Lamplight.shadow.mapSize.width = 20;
 Lamplight.shadow.mapSize.height = 20;
-Lamplight.decay=2;
+Lamplight.decay=1.9;
 Lamplight.castShadow=true;
-Lamplight.distance=6; 
+Lamplight.distance=9; 
 Lamplight.power=4*Math.PI;
 
 //Musica Principal
@@ -170,12 +170,17 @@ var LoadingComplete=0;//Loading timer
 // Load the background texture
 const loaderBG = new THREE.CubeTextureLoader();
 loaderBG.setPath( './Texturas/CubeTextureBG/' );
-const BackgroundT = loaderBG.load([
+const BackgroundDay = loaderBG.load([
 	'1.jpg', '1.jpg',
 	'skysqr.jpg', 'Post ApocalipticGrass.jpg',
 	'1.jpg', '1.jpg'
 ]);
-cena.background=BackgroundT;
+const BackgroundNight = loaderBG.load([
+	'2.jpg', '2.jpg',
+	'2.jpg', 'Post ApocalipticGrass.jpg',
+	'2.jpg', '2.jpg'
+]);
+cena.background=BackgroundDay;
 //cena.fog=new THREE.Fog(0xdddddd,10,300); //NO //IT MAKES POOTER RUN VERY SUCK
 
 /*Comonentes Sala1*****************************************/
@@ -427,9 +432,7 @@ function Lampadateto1()
     
     //luz
     cena.add(LightBoxluz);
-    LightBoxluz.position.y+=7;
-    LightBoxluz.castshadow=true;
-    LightBoxluz.decay=2;
+    LightBoxluz.position.y+=5;
 }
 
 function No_Clip(){ if(NoClip==0){NoClip=1;} else if(NoClip==1){NoClip=0;}}

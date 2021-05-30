@@ -37,6 +37,6 @@ function Lamp()
 
     //luz Candeeiro
     Bulb.add(Lamplight);
-    Lamplight.position.y-=0.5;
+    Lamplight.position.y-=0.7;
     Lamplight.target = TopLivro; 
 }

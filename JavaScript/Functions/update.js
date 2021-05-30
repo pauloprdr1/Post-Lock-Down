@@ -442,6 +442,7 @@ function update(){
         {
             DayNightCicle=0;
             OutsideLight.intensity==0.1;
+            cena.background=BackgroundDay;
         }
         else if(OutsideLight2.intensity>=1.4 && DayNightCicle==0)
         {
@@ -450,6 +451,7 @@ function update(){
         if(OutsideLight2.intensity<=0.2 && DayNightCicle==1)
         {
             DayNightCicle=2;
+            cena.background=BackgroundNight;
             OutsideLight.intensity==0.4;
         }
         else if(OutsideLight2.intensity>=0.7 && DayNightCicle==2)
